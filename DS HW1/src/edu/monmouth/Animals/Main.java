@@ -46,10 +46,12 @@ public class Main {
 	            animal.makeSound();
 	        }
 	       
-	       for (int i = 0; i < zoo.length; i++) 
+	       for (int i = 0; i < zoo.length; i++)
+
 	       {
-			zoo[3].move();
-	    	zoo[3].makeSound();
+	            zoo[i].move();
+
+	            zoo[i].makeSound();
 	       }
 	        
 	       for (Animal animal : zoo) 
