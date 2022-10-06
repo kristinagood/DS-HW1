@@ -50,14 +50,14 @@ public class Main {
 
 	       {
 	            zoo[i].move();
-
 	            zoo[i].makeSound();
 	       }
-	        
-	       for (Animal animal : zoo) 
+	       
+	       int i = 0;
+	       while (i == zoo.length) 
 	       {
-	    	   animal.move();
-	    	   animal.makeSound();
+	    	   zoo[i].move();
+	           zoo[i].makeSound();
 	       }
 	
 
